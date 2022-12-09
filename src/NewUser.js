@@ -45,6 +45,7 @@ function NewUser() {
         if (err.length == 0) {
             const date = new Date();
 
+            
             // let day = date.getDate();
             let month = date.getMonth() + 1;
             let year = date.getFullYear();
